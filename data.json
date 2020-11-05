@@ -1,0 +1,141 @@
+{
+  "fp": null,
+  "displaydateFrom": 1573051550490,
+  "rgId": 76,
+  "rawFieldsCallback": null,
+  "disablePause": true,
+  "totalDocs": 11,
+  "queryId": "123e256c-1c91-40c9-b5d7-a62429847711",
+  "issessionview": null,
+  "spfilterdtfrom": "",
+  "queryStatus": "FINISHED",
+  "chart_type": "",
+  "filteredFieldSet": [],
+  "displaydateTo": 1604587550490,
+  "entitycount": null,
+  "isFilteredQuery": false,
+  "sortBy": "eventtime",
+  "results": [
+    { "count": 1240.0, "deviceeventcategory": "Endpoint Monitoring" },
+    { "count": 276.0, "deviceeventcategory": "Mobile" },
+    { "count": 190.0, "deviceeventcategory": "Authentication" },
+    { "count": 128.0, "deviceeventcategory": "Network Analysis" },
+    {
+      "count": 66.0,
+      "deviceeventcategory": "Endpoint Monitoring , Authentication"
+    },
+    { "count": 21.0, "deviceeventcategory": "Email Monitoring" },
+    { "count": 19.0, "deviceeventcategory": "Cloud Audit , Authentication" },
+    {
+      "count": 18.0,
+      "deviceeventcategory": "Endpoint Monitoring , Network Analysis"
+    },
+    {
+      "count": 16.0,
+      "deviceeventcategory": "Network Analysis , Data Loss Prevention"
+    },
+    {
+      "count": 14.0,
+      "deviceeventcategory": "Endpoint Monitoring , Data Loss Prevention"
+    },
+    { "count": 2.0, "deviceeventcategory": "Network Analysis , Authentication" }
+  ],
+  "maxdocsstoredperquery": 1000,
+  "displayMsg": "<span class=''>11<\u002fspan> found in <span class=''>0 secs <\u002fspan>",
+  "offset": "0",
+  "paginationTotal": 0,
+  "isSpotterJobOn": true,
+  "isTotalSolrDocsRounded": false,
+  "format": null,
+  "hideRawEvents": false,
+  "spottertimewindow_type": "days",
+  "responsetype": null,
+  "pipeQuery": [
+    "resourcegroupname = \"Mitre ATTCK Logs\"",
+    "barchart count by deviceeventcategory"
+  ],
+  "spottertimewindow": "365",
+  "filterDocs": 11,
+  "isFirstTime": false,
+  "timeAllowed": false,
+  "parameters": {
+    "checkToken": "true",
+    "solrquery": "IHJlc291cmNlZ3JvdXBuYW1lID0gIk1pdHJlIEFUVENLIExvZ3MiICB8IGJhcmNoYXJ0IGNvdW50IGJ5IGRldmljZWV2ZW50Y2F0ZWdvcnk=",
+    "spottertimewindow": "365",
+    "spottertimewindow_type": "days",
+    "timelinefield": "timeline_by_hour",
+    "jsonrequired": "true",
+    "spfilterdtfrom": "",
+    "spfilterdtto": "",
+    "columnscsv": "",
+    "view": "mydashboard",
+    "updateSearchViolationFlag": "false",
+    "corename": "false",
+    "chartdiv": "chart1596085407082",
+    "chartlabel": "MITRE Defense Categories",
+    "eid": "piechart",
+    "timelinedata": "false",
+    "xlabel": "",
+    "ylabel": "",
+    "dsselected": "76",
+    "xselected": "deviceeventcategory",
+    "yselected": "-1",
+    "orientation": "vertical",
+    "coreattrname": "",
+    "chartcolor": "000000",
+    "yaxisfield_geo_stack": "-1",
+    "basequery": " resourcegroupname = \\\\x22Mitre ATTCK Logs\\\\x22  ",
+    "queryId": "123e256c-1c91-40c9-b5d7-a62429847711",
+    "screentype": "datainsight",
+    "org.codehaus.groovy.grails.SYNCHRONIZER_TOKEN": "d4ad507d-c9eb-4622-ae05-6b04966bfeab",
+    "org": [
+      {
+        "class": "java.util.LinkedHashMap$Entry",
+        "key": "codehaus.groovy.grails.SYNCHRONIZER_TOKEN",
+        "value": "d4ad507d-c9eb-4622-ae05-6b04966bfeab"
+      },
+      {
+        "class": "java.util.LinkedHashMap$Entry",
+        "key": "codehaus",
+        "value": {
+          "groovy.grails.SYNCHRONIZER_TOKEN": "d4ad507d-c9eb-4622-ae05-6b04966bfeab",
+          "groovy": {
+            "grails.SYNCHRONIZER_TOKEN": "d4ad507d-c9eb-4622-ae05-6b04966bfeab",
+            "grails": {
+              "SYNCHRONIZER_TOKEN": "d4ad507d-c9eb-4622-ae05-6b04966bfeab"
+            }
+          }
+        }
+      }
+    ],
+    "controller": "spotter",
+    "action": "getsearchresults",
+    "max": "15",
+    "offset": "0"
+  },
+  "orderBy": "desc",
+  "rawData": ["count", "deviceeventcategory"],
+  "isPrivacy": true,
+  "entityvalue": null,
+  "searchviolation": "false",
+  "isError": 0,
+  "listOfDistinctValues": [],
+  "formatteddateFrom": "Wed, 6 Nov 2019 @ 08:45:50 AM",
+  "graphRequired": true,
+  "resultsType": "BARCHART",
+  "solrquery": "IHJlc291cmNlZ3JvdXBuYW1lID0gIk1pdHJlIEFUVENLIExvZ3MiICB8IGJhcmNoYXJ0IGNvdW50IGJ5IGRldmljZWV2ZW50Y2F0ZWdvcnk=",
+  "totalSolrDocs": 1990,
+  "max": "15",
+  "resultHeaders": ["deviceeventcategory", "count"],
+  "filters": ["resourcegroupname = \"Mitre ATTCK Logs\""],
+  "message": "false|<span class=''>11<\u002fspan> found in <span class=''>0 secs <\u002fspan>|rg_name:\"Mitre ATTCK Logs\"",
+  "spfilterdtto": "",
+  "detailedMessage": null,
+  "indexType": null,
+  "addonquery": null,
+  "paginationcount": 0,
+  "totalCmdOutputDocs": 11,
+  "formatteddateTo": "Thu, 5 Nov 2020 @ 08:45:50 AM",
+  "entity": null,
+  "isFacetEnabled": true
+}

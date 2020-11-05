@@ -5,12 +5,17 @@ import define2 from "./abf5a722c906615a@2079.js";
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer("data")).define("data", ["d3"], async function (d3) {
-    const flare = await d3.json(
-      "https://raw.githubusercontent.com/d3/d3-hierarchy/master/test/data/flare.json"
-    );
-    return d3
-      .hierarchy(flare)
+    const flare = await d3.json("./data.json");
+    const renamedValues = flare.results.map((a) => ({
+      name: a.deviceeventcategory,
+      value: a.count,
+    }));
+    let data = { name: "Mitre", children: [...renamedValues] };
+    const values = d3
+      .hierarchy(data)
       .sum((d) => (d.children ? 0 : Math.random() * 10));
+    console.log({ values });
+    return values;
   });
   main
     .variable(observer("__exampleChart"))
